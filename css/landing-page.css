@@ -124,3 +124,13 @@ footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
+
+.btn-joker {
+  color: white;
+  background-color: #ab5dee;
+}
+
+.btn-joker:hover{
+  color: white;
+  background-color: #be80ff;
+}
