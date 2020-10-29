@@ -158,15 +158,14 @@ footer.footer {
 }
 
 .nspm-logo {
-  display: none;
+  margin: auto;
+  width: 20rem;
+  height: 7rem;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .nspm-logo {
-    display: block;
-    margin: auto;
-    width: 20rem;
-    height: 7rem;
+    display: none;
   }
 }
 
