@@ -140,12 +140,40 @@ footer.footer {
   padding-bottom: 4rem;
 }
 
+@media (max-width: 768px) {
+  .btn-joker {
+    color: white;;
+    margin: auto;
+  }
+}
+
 .btn-joker  { 
-  color: white;
-  background-color: #ab5dee;
+  margin: right;
+  background-color: #ab5dee
 } 
 
 .btn-joker:hover{
   color: white;
   background-color: #be80ff;
+}
+
+.nspm-logo {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .nspm-logo {
+    display: block;
+    margin: auto;
+    width: 20rem;
+    height: 7rem;
+  }
+}
+
+.contact {
+  margin: auto;
+}
+
+.contact-text {
+  text-decoration: solid;
 }
