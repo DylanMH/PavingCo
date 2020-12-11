@@ -58,7 +58,7 @@ header.masthead h1 {
 
 .showcase .showcase-img {
   min-height: 15rem;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -123,6 +123,8 @@ header.masthead h1 {
   background-size: cover;
   padding-top: 7rem;
   padding-bottom: 7rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
 }
 
 .call-to-action .overlay {
